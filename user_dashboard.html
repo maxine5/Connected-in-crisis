@@ -17,7 +17,7 @@
   <a href="/lookup?r=true" onclick="event.preventDefault(); document.getElementById('form1').submit();">
     <img src="https://api.qrserver.com/v1/create-qr-code/?data=Alex%20Stone%201990-05-15&size=150x150" alt="QR 1">
   </a>
-  <form id="form1" method="POST" action="/lookup" style="display:none;">
+  <form id="form1" method="POST" action="https://connected-in-crisisbackend.onrender.com/lookup">
     <input type="hidden" name="name" value="Alex Stone">
     <input type="hidden" name="dob" value="1990-05-15">
   </form>
